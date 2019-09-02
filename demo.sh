@@ -1,3 +1,4 @@
+#check conflict
 rm second_line.txt
 for FILE in *.fastq
 do
