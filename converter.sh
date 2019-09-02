@@ -3,3 +3,4 @@ for FILE in *.fastq
 do
     awk 'NR%4' $FILE | awk 'NR%3' | sed 's/@/>/g' > $(basename $FILE .fastq).fasta
 done
+# The command between $() removes the original file extension.
