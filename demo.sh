@@ -1,3 +1,4 @@
+# Get second line of all FASTQ files.
 rm second_line.txt
 for FILE in *.fastq
 do
